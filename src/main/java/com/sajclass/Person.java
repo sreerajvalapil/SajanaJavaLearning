@@ -6,10 +6,19 @@ public class Person {
     private int age;
     private int totalMarks;
     private String grade;
+    private double loanAmount;
     static String collageName="SNGC";
 static void changeColName(String a){
     collageName=a;
 }
+
+    public double getLoanAmount() {
+        return loanAmount;
+    }
+
+    public void setLoanAmount(double loanAmount) {
+        this.loanAmount = loanAmount;
+    }
 
     public String getGrade() {
         return grade;
