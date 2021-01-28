@@ -7,6 +7,7 @@ public class PersonMain {
 
         Person sreeraj= new Person("Sreeraj");
         Person sreyaan= new Person("Sreeraj","s@gmail.com",12,100);*/
+
         Person sajana = new Person("Sajana", "sa@gmail.com", 25);
 
         Person sreyaan = new Person("Sreyaan", "Sre@gmail.com", 5);

@@ -7,10 +7,13 @@ public class MyArray {
         int markStudent[] = new int[10];
 
         String[] stuName = new String[10];
+
         Bank bankObjArray[] = new Bank[3];
+
         Bank bank1 = new Bank("Cop1", "Tpba", "Cop1", 4);
         Bank bank2 = new Bank("Cop2", "Tpba", "Cop2", 4);
         Bank bank3 = new Bank("Cop3", "Tpba", "Cop3", 4);
+
         bankObjArray[0] = bank1;
         bankObjArray[1] = bank2;
         bankObjArray[2] = bank3;

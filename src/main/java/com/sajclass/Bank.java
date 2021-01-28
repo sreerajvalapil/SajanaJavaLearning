@@ -6,7 +6,15 @@ public class Bank {
     private String ifcCode;
     private double interestRate;
     private String status="Valid";
+    private String mmCode;
 
+    public String getMmCode() {
+        return mmCode;
+    }
+
+    public void setMmCode(String mmCode) {
+        this.mmCode = mmCode;
+    }
 
     public void setStatus(String status) {
         this.status = status;

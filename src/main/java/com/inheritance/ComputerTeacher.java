@@ -9,4 +9,10 @@ public class ComputerTeacher extends Teacher {
         super(name, phone);
         this.computerLanguage = computerLanguage;
     }
+
+
+    @Override
+    public void learn() {
+
+    }
 }

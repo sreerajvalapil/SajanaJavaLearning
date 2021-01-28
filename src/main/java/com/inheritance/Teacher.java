@@ -1,6 +1,6 @@
 package com.inheritance;
 
-public class Teacher {
+public abstract  class Teacher {
     private String name;
     private String phone;
     private String subject="GK";
@@ -17,5 +17,7 @@ public class Teacher {
         System.out.println("Hey.. I am teaching "+this.subject);
     }
 
+    public abstract void learn() ;
 
-}
+
+    }

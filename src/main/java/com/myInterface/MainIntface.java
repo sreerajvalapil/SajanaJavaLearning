@@ -9,6 +9,7 @@ public class MainIntface {
         //dog.run();
         //dog.makeSound();
         AnimalTest test=new AnimalTest();
+
         test.testAnimal(giraff1);
         test.testAnimal(dog);
 

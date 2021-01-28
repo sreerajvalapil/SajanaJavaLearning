@@ -29,6 +29,7 @@ public class Bus {
 
     @Override
     public boolean equals(Object b3) {
+
         return this.getBusNumber().equals (((Bus) b3).getBusNumber()) ;
     }
     @Override

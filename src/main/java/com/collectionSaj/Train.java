@@ -9,6 +9,14 @@ public class Train {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return "Train{" +
+                "speed=" + speed +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
     public double getSpeed() {
         return speed;
     }
@@ -23,5 +31,10 @@ public class Train {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public int hashCode() {
+        return 1500;
     }
 }

@@ -20,4 +20,9 @@ public class ScienceTeacher extends Teacher {
 
 
     }
+
+    @Override
+    public void learn() {
+
+    }
 }

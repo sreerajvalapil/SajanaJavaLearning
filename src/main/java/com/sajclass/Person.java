@@ -8,7 +8,8 @@ public class Person {
     private String grade;
     private double loanAmount;
     static String collageName="SNGC";
-static void changeColName(String a){
+
+    static void changeColName(String a){
     collageName=a;
 }
 
